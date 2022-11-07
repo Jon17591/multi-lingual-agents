@@ -76,8 +76,8 @@ def generate_listener(name):
 
 def launch_multi(speaker_list, listener_list, group, evaluate=False):
     """
-    A very messy function, but if I need the output of train i currently use star map. If I don't need the output
-    I use Process
+    Run multiple interactions in parallel
+
     :param speaker_list:
     :param listener_list:
     :param group:

@@ -1,0 +1,10 @@
+name: listener
+project: reinforce_mnist
+description: check performance variance
+program: train_mnist_listener.py
+method: grid
+parameters:
+  iteration:
+    values: [0,1,2]
+  listener:
+    values: [True, False]
